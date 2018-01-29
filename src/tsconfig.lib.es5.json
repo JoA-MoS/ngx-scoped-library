@@ -13,8 +13,8 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "genDir": "../tmp/lib-gen-dir/",
-    "flatModuleOutFile": "my-ngx-library.js",
-    "flatModuleId": "my-ngx-library",
+    "flatModuleOutFile": "ngx-scoped-library.js",
+    "flatModuleId": "ngx-scoped-library",
     "annotateForClosureCompiler": true
   }
 }

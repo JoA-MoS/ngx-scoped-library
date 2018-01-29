@@ -1,10 +1,10 @@
 import { MyNgxLibraryDemoPage } from './app.po';
 
-describe('my-ngx-library-demo App', () => {
+describe('ngx-scoped-library-demo App', () => {
   let page: MyNgxLibraryDemoPage;
 
   beforeEach(() => {
-    page = new MyNgxLibraryDemoPage ();
+    page = new MyNgxLibraryDemoPage();
   });
 
   it('should display message saying app works', () => {

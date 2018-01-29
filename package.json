@@ -1,5 +1,5 @@
 {
-  "name": "my-ngx-library",
+  "name": "ngx-scoped-library",
   "description": "Angular library built with ❤ using ngx-library yeoman generator.",
   "version": "0.0.1",
   "homepage": "https://github.com/JoA-MoS/ngx-scoped-library",

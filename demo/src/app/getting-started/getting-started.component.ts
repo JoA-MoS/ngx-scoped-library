@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title }     from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 
 
 @Component({
@@ -9,10 +9,10 @@ import { Title }     from '@angular/platform-browser';
 })
 export class GettingStartedComponent implements OnInit {
 
-  constructor(private titleService:Title) { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
-    this.titleService.setTitle('Getting Started | my-ngx-library');
+    this.titleService.setTitle('Getting Started | ngx-scoped-library');
   }
 
 }

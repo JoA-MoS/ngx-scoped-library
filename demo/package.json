@@ -1,8 +1,8 @@
 {
-  "name": "my-ngx-library-demo",
+  "name": "ngx-scoped-library-demo",
   "version": "0.0.0",
   "license": "MIT",
-  "description": "Demo app for my-ngx-library",
+  "description": "Demo app for ngx-scoped-library",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "npm link my-ngx-library"
+    "postinstall": "npm link ngx-scoped-library"
   },
   "private": true,
   "dependencies": {

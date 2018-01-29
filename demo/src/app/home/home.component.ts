@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title }     from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -8,10 +8,10 @@ import { Title }     from '@angular/platform-browser';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private titleService:Title) { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
-    this.titleService.setTitle('Home | my-ngx-library');
+    this.titleService.setTitle('Home | ngx-scoped-library');
   }
 
 }
