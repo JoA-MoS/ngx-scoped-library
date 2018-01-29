@@ -1,0 +1,35 @@
+{
+  "generator-ngx-library": {
+    "version": "5.5.0",
+    "authorName": "Justin Dietz",
+    "authorEmail": "JoAMos.Dev@gmail.com",
+    "githubUsername": "JoA-MoS",
+    "githubRepoName": "ngx-scoped-library",
+    "projectName": "my-ngx-library",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular library built with ❤ using ngx-library yeoman generator.",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngVersion": "5.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "my-lib",
+    "testingFramework": "karma",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "demo/src/jestGlobalMocks.ts",
+      "demo/src/setupJest.ts",
+      "config/jestGlobalMocks.ts",
+      "config/setupJest.ts"
+    ]
+  }
+}
